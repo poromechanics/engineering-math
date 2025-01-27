@@ -1,0 +1,273 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Engineering Mathematics",
+    "section": "",
+    "text": "Preface\nEngineering mathematics is a crucial foundation for any aspiring engineer. This book aims to provide a comprehensive understanding of the mathematical principles and techniques that are essential in the field of engineering (especially, computational engineering). From calculus to differential equations, linear algebra to complex analysis, each chapter is designed to build your knowledge and problem-solving skills.\nWhether you are a student beginning your journey or a professional looking to refresh your skills, this book will serve as a valuable resource. Through clear explanations, practical examples, and numerous exercises, you will gain the confidence needed to tackle the mathematical challenges you will encounter in your engineering career.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "la-lower-triangular-matrix.html",
+    "href": "la-lower-triangular-matrix.html",
+    "title": "Lower Triangular Matrix",
+    "section": "",
+    "text": "Lower triangular matrix\n\\[\nL(i,j)=0, \\forall j&gt;i\n\\]",
+    "crumbs": [
+      "Linear Algebra",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Lower Triangular Matrix</span>"
+    ]
+  },
+  {
+    "objectID": "la-lower-triangular-matrix.html#forward-substitution",
+    "href": "la-lower-triangular-matrix.html#forward-substitution",
+    "title": "Lower Triangular Matrix",
+    "section": "Forward substitution",
+    "text": "Forward substitution\nA system\n\\[\nLx=y\n\\]\nis solved by forward substitution.",
+    "crumbs": [
+      "Linear Algebra",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Lower Triangular Matrix</span>"
+    ]
+  },
+  {
+    "objectID": "la-upper-triangular-matrix.html",
+    "href": "la-upper-triangular-matrix.html",
+    "title": "Upper Triangular Matrix",
+    "section": "",
+    "text": "Upper triangular matrix\n\\[\nU(i,j)=0, \\forall i&gt;j\n\\]",
+    "crumbs": [
+      "Linear Algebra",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Upper Triangular Matrix</span>"
+    ]
+  },
+  {
+    "objectID": "la-upper-triangular-matrix.html#backward-substitution",
+    "href": "la-upper-triangular-matrix.html#backward-substitution",
+    "title": "Upper Triangular Matrix",
+    "section": "Backward substitution",
+    "text": "Backward substitution\nA system\n\\[\nUx=y\n\\]\nIs solved by backward substitution.",
+    "crumbs": [
+      "Linear Algebra",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Upper Triangular Matrix</span>"
+    ]
+  },
+  {
+    "objectID": "la-upper-triangular-matrix.html#upper-unitriangular-matrix",
+    "href": "la-upper-triangular-matrix.html#upper-unitriangular-matrix",
+    "title": "Upper Triangular Matrix",
+    "section": "Upper unitriangular matrix",
+    "text": "Upper unitriangular matrix\nIf the entries on the main diagonal of a upper or lower triangular matrix are all 1, the matrix is called upper or lower unitriangular.\n\nStrictly triangular matrix: If all of the entries on the main diagonal of a (upper or lower) triangular matrix are also 0, the matrix is called strictly (upper or lower) triangular.",
+    "crumbs": [
+      "Linear Algebra",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Upper Triangular Matrix</span>"
+    ]
+  },
+  {
+    "objectID": "la-upper-triangular-matrix.html#properties",
+    "href": "la-upper-triangular-matrix.html#properties",
+    "title": "Upper Triangular Matrix",
+    "section": "Properties",
+    "text": "Properties\nUpper triangularity is preserved by many operations:\n\nThe sum of two upper triangular matrices is upper triangular.\nThe product of two upper triangular matrices is upper triangular.\nThe inverse of an upper triangular matrix, if it exists, is upper triangular.\nThe product of an upper triangular matrix and a scalar is upper triangular.",
+    "crumbs": [
+      "Linear Algebra",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Upper Triangular Matrix</span>"
+    ]
+  },
+  {
+    "objectID": "la-lu-decomposition.html",
+    "href": "la-lu-decomposition.html",
+    "title": "LU Decomposition",
+    "section": "",
+    "text": "LU Decomposition\n\\[\nA = LU\n\\]\n\nL is lower triangular with unit diagonal values\nU is upper triangular",
+    "crumbs": [
+      "Linear Algebra",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>LU Decomposition</span>"
+    ]
+  },
+  {
+    "objectID": "la-qr-decomposition.html",
+    "href": "la-qr-decomposition.html",
+    "title": "QR Decomposition",
+    "section": "",
+    "text": "QR Decomposition\n\\[\nA = QR\n\\]\n\n\\(Q\\) is unitary matrix, that is, \\(det(Q)=1\\), \\(QQ^{T}=I\\), and all eigenvalues lie on a unit circle. Also columns of Q are orthonormal to each other.\nR is an upper triangular matrix.",
+    "crumbs": [
+      "Linear Algebra",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>QR Decomposition</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html",
+    "href": "gf_greens-function-introduction.html",
+    "title": "Greens Function",
+    "section": "",
+    "text": "Differential operator\nWe will denote a differential operator by \\(\\bf{L}\\), then a differential equation can be written as:\n\\[\n\\mathbf{L}u=f\n\\]\nWhere \\(u\\) and \\(f\\) are functions from \\([a,b]\\) to \\(R\\). Here \\([a,b]\\) is the domain of \\(u\\) and \\(f\\)., and \\(\\bf{L}\\) is a \\(n\\)th order linear ordinary differential operator. The differential operator satisfies the following conditions of linearity.\nIf \\(\\alpha\\) and \\(\\beta\\) are some arbitrary real numbers, and \\(u\\) and \\(v\\) are some functions, and let us assume that \\(Lu\\) and \\(Lw\\) exists, then\n\\[\n\\mathbf{L}\\left(\\alpha u+\\beta v\\right)=\\alpha\\mathbf{L}u+\\beta\\mathbf{L}v\n\\]\nThe generic form of \\(L\\) is given by\n\\[\n\\mathbf{L}:=a_{0}(x)+a_{1}(x)\\frac{d}{dx}+a_{2}(x)\\frac{d^{2}}{dx^{2}}+\\cdots+a_{n}(x)\\frac{d^{n}}{dx^{n}}\n\\]\nExample:",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html#differential-operator",
+    "href": "gf_greens-function-introduction.html#differential-operator",
+    "title": "Greens Function",
+    "section": "",
+    "text": "\\(\\mathbf{L}u:=\\frac{d^{2}u}{dx^{2}}+x^{2}\\frac{du}{dx}+4u\\), Linear\n\\(\\mathbf{L}u:=\\frac{d^{2}u}{dx^{2}}+\\cos u\\)​, Nonlinear\n\\(\\mathbf{L}u:=\\frac{du}{dx}+abs(u)\\)​ , Non linear",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html#boundary-condition",
+    "href": "gf_greens-function-introduction.html#boundary-condition",
+    "title": "Greens Function",
+    "section": "Boundary condition",
+    "text": "Boundary condition\nNow we will consider the boundary condition associated with the linear ordinary differential equation described above. Note that if the order of ODE is n then we will need to specify n boundary conditions. These n boundary conditions can be written as follows.\n\\[\n\\mathbf{B}_{j}\\left(u\\right)=c_{j},\\text{ for },j=1,2,{\\cdots,n}\n\\]\nThe above form of boundary condition is called inhomogeneous if \\(c_j \\ne 0\\), and it is called homogeneous if \\(c_j = 0\\). The boundary condition \\(\\bf{B}_j\\) is called linear if it satisfy the following conditions.\nLet \\(\\alpha\\) and \\(\\beta\\) be some arbitrary real numbers, and let \\(u\\) and \\(v\\) be some real functions, then\n\\[\n\\mathbf{B}_{j}\\left(\\alpha u+\\beta v\\right)=\\alpha\\mathbf{B}_{j}u+\\beta\\mathbf{B}_{j}v\n\\]\nWe can represent a linear boundary condition as a linear combination of \\(u\\) and its derivatives, through order \\(n-1\\), at the two endpoints, \\(a.b\\).\nFor \\(n=1\\) boundary condition is given by\n\\[\n\\mathbf{B}_{1}u:=u(a)=c_{1}\n\\]\nFor \\(n=2\\) boundary condition is given by\n\\[\n\\mathbf{B}_{1}u:=a_{10}u(a)+a_{11}\\frac{du(a)}{dx} + b_{10}u(b)+b_{11}\\frac{du(b)}{dx}=c_1\n\\]\n\\[\n\\mathbf{B}_{2}u:=a_{20}u(a)+a_{21}\\frac{du(a)}{dx} + b_{20}u(b)+b_{21}\\frac{du(b)}{dx}=c_2\n\\]\nExamples:\n\n\\(Bu=u(0)+2\\frac{du(1)}{dx}\\), linear functional\n\\(Bu:= u^2(0)\\), nonlinear functional\nBu := \\(\\int_{0}^{1}{u(x)\\cos(x)dx}\\), linear functional",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html#operator",
+    "href": "gf_greens-function-introduction.html#operator",
+    "title": "Greens Function",
+    "section": "Operator",
+    "text": "Operator\nAn operator will be denoted by \\(\\mathfrak{L}\\), which will refer to the linear differential operator \\(\\mathbf{L}\\) and the boundary conditions \\(\\mathbf{B}_{j}\\). The linearity of differential operator and its boundary conditions leads to the linearity of the operator.",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html#adjoint-operator",
+    "href": "gf_greens-function-introduction.html#adjoint-operator",
+    "title": "Greens Function",
+    "section": "Adjoint operator",
+    "text": "Adjoint operator\nThe formal adjoint differential operator \\(\\mathbf{L}^{*}\\) Of a linear differential operator \\(\\mathbf{L}\\) Is obtained by performing integration by parts as show below\n\\[\n\\int_{a}^{b}v\\mathbf{L}udx=\\int_{a}^{b}u\\mathbf{L}^{*}vdx+\\left[\\cdots\\right]_{a}^{b}\n\\]\nWhere, the second term on the RHS denotes the boundary term. The integral in above equation denotes the inner product of two functional in inner-product space. We will use the operator \\(\\langle \\cdot, \\cdot\\rangle\\) To denote an inner product, that is\n\\[\n\\left\\langle v,\\mathbf{L}u\\right\\rangle :=\\int_{a}^{b}v\\mathbf{L}udx\n\\]\nThen, Eq. \\(\\ref{eq:eq-1}\\) can be written as\n\\[\n\\left\\langle v,\\mathbf{L}u\\right\\rangle =\\left\\langle u,\\mathbf{L}^{*}v\\right\\rangle +\\left[\\cdots\\right]_{a}^{b}\n\\]\nNote that in the above equation we have assumed the existence of \\(\\mathbf{L}u\\)​ and \\(\\mathbf{L}^{*}v\\).",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html#example",
+    "href": "gf_greens-function-introduction.html#example",
+    "title": "Greens Function",
+    "section": "Example",
+    "text": "Example\nConsider the following differential operator\n\\[\n\\mathbf{L}u:=a(x)\\frac{d^{2}u}{dx^{2}}+b(x)\\frac{du}{dx}+c(x)u\n\\] Then to get the adjoint differential operator we follow the procedure given below, which starts by integration by parts.\n\\[\n\\begin{aligned}\\left\\langle v,\\mathbf{L}u\\right\\rangle  & :=\\int_{a}^{b}v\\mathbf{L}udx\\\\\n& =\\int_{a}^{b}v\\left(a(x)\\frac{d^{2}u}{dx^{2}}+b(x)\\frac{du}{dx}+c(x)u\\right)dx\\\\\n& =\\int_{a}^{b}va(x)\\frac{d^{2}u}{dx^{2}}dx+\\int_{a}^{b}vb(x)\\frac{du}{dx}dx+\\int_{a}^{b}vc(x)udx\\\\\n& =\\left[va\\frac{du}{dx}\\right]_{a}^{b}-\\int_{a}^{b}\\frac{dva}{dx}\\frac{du}{dx}dx+\\int_{a}^{b}vc(x)udx\\\\\n& +\\left[vbu\\right]_{a}^{b}-\\int_{a}^{b}\\frac{dvb}{dx}udx\\\\\n& =\\left[va\\frac{du}{dx}\\right]_{a}^{b}-\\left[\\frac{dva}{dx}u\\right]_{a}^{b}+\\int_{a}^{b}\\frac{d^{2}va}{dx^{2}}udx+\\int_{a}^{b}vc(x)udx\\\\\n& +\\left[vbu\\right]_{a}^{b}-\\int_{a}^{b}\\frac{dvb}{dx}udx\\\\\n& =\\int_{a}^{b}u\\left(\\frac{d^{2}va}{dx^{2}}-\\frac{dvb}{dx}+c(x)\\right)dx+\\left[va\\frac{du}{dx}-\\frac{dva}{dx}u+vbu\\right]_{a}^{b}\\\\\n& =\\left\\langle u,\\mathbf{L}^{*}v\\right\\rangle +\\left[va\\frac{du}{dx}-\\frac{dva}{dx}u+vbu\\right]_{a}^{b}\n\\end{aligned}\n\\]\nWhere the adjoint differential operator is given by\n\\[\n\\begin{aligned}\\mathbf{L}^{*}v & =\\frac{d^{2}va}{dx^{2}}-\\frac{dvb}{dx}+c(x)\\\\\n& =a\\frac{d^{2}v}{dx^{2}}+\\left(2\\frac{da}{dx}-b\\right)\\frac{dv}{dx}+\\left(\\frac{d^{2}a}{dx^{2}}-\\frac{db}{dx}+c\\right)\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html#formally-self-adjoint-operator",
+    "href": "gf_greens-function-introduction.html#formally-self-adjoint-operator",
+    "title": "Greens Function",
+    "section": "Formally self-adjoint operator",
+    "text": "Formally self-adjoint operator\nWhen \\(\\mathbf{L} = \\mathbf{L}^{*}\\), then we say that \\(\\mathbf{L}\\)​ Is formally self adjoint.\nIn above mentioned example the differential operator will be self adjoint if \\(b=\\frac{da}{dx}\\), therefore, the following linear differential operator is self adjoint.\n\\[\n\\mathbf{L}u:=a(x)\\frac{d^{2}u}{dx^{2}}+\\frac{da}{dx}\\frac{du}{dx}+c(x)u\n\\]\n\nFirst order differential operators cannot be formally self-adjoint.\n\nFor the case where the boundary conditions associated with \\(\\mathbf{L}\\) Are homogenous, we define not only a formal adjoint differential operator \\(\\mathbf{L}^{*}\\), but also an adjoint operator \\(\\mathfrak{L}\\), which is given by the following relationship.\n\\[\n\\langle Lu,v \\rangle = \\langle u, L^* v\\rangle\n\\]\nIn this way, \\(\\mathfrak{L}^{*}\\), contains both \\(\\mathbf{L}^{*}\\), and boundary conditions which are such that the boundary terms, arising through the integration by parts, all vanish.",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html#greens-function-method",
+    "href": "gf_greens-function-introduction.html#greens-function-method",
+    "title": "Greens Function",
+    "section": "Green’s function method",
+    "text": "Green’s function method\nIn this section we will present the Green’s function method for the solution of \\(n\\)th order linear ODE, with linear boundary conditions in the form of linear combination of the unknown and its derivatives through order \\(n-1\\).\nConsider a second order ODE which is given below.\n\\[\nLu:=\\frac{d^2 u}{d x^2} = f(x); \\quad u(0)=u(1)=0\n\\]\nThe problem represents the static deflection of a string, which is clamped at both ends. Here, \\(f(x)\\) denotes the force per unit length of the string. Also note that the string is under tension.\nFrom the adjoint linear operator, we know that\n\\[\n\\langle Lu,v\\rangle=\\left\\langle u,L^{*}v\\right\\rangle +\\left[\\cdots\\right]_{0}^{1}\n\\]\nHere domain of integration is selected from 0 to 1.",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html#delta-function",
+    "href": "gf_greens-function-introduction.html#delta-function",
+    "title": "Greens Function",
+    "section": "Delta function",
+    "text": "Delta function\nThe history of delta function is very rich, and can be found on Wikipedia. A delta function is denoted by \\(\\delta(x)\\), it is a discrete function. Later, we will explain that it does not follow the classical definition of a function, and it is what we called as a generalized function. A \\(\\delta(x)\\) function is given by following equation\n\\[\n\\delta(x):=\\begin{cases}\n0 & x\\ne0\\\\\n\\infty & x=0\n\\end{cases}\n\\]\nIn above definition delta function is zero everywhere but \\(x=1\\)​ where it is infinite. We can define a shifted definition of delta function as\n\\[\n\\delta(x-\\xi):=\\begin{cases}\n0 & x-\\xi\\ne0\\\\\n\\infty & x-\\xi=0\n\\end{cases}\n\\]\nOne of the important property of delta function is given below.\n\\[\n\\int_{-\\infty}^{\\infty}\\delta(x-\\xi)dx=1\n\\]\nIn mechanics Delta function is used to represent a point force, a point source of heat or concentration. In electrostatic, it is used to represent a point charge, and in gravitation it is used to denote a point mass.\nAnother important property of delta function is given below.\n\\[\n\\int\\delta(x-\\xi)f(x)dx=f(\\xi)\n\\]\nThe above property is also called the collocation property.\nSome other properties of delta functions are as follows.\n\n\\(x \\delta(x)=0\\)\n\\(x^n \\delta(x)=0\\)\n\\(\\delta^n(x)=\\delta(x)\\)\n\nWe can extend the definition of delta function to multi-dimensions as follows:\n\\[\n\\delta(x,y)=\\begin{cases} +\\infty & x^{2}+y^{2}=0\\\\ 0 & \\text{otherwise} \\end{cases}\n\\]\nThe shifted delta function is given by\n\\[\n\\delta({\\bf x}-{\\bf x}_{0})=\\begin{cases} +\\infty & \\left\\Vert {\\bf x}-{\\bf x}_{0}\\right\\Vert =0\\\\ 0 & \\text{otherwise} \\end{cases}\n\\]\nThe integral property is given below:\n\\[\n\\int_{\\Omega}\\delta({\\bf x}-{\\bf x}_{0})f({\\bf x})=f({\\bf x}_{0})\n\\]",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html#generalized-function",
+    "href": "gf_greens-function-introduction.html#generalized-function",
+    "title": "Greens Function",
+    "section": "Generalized function",
+    "text": "Generalized function\nConsider the following functional:\n\\[\n\\mathfrak{F}\\left(h\\right):=\\int_{-\\infty}^{\\infty}g\\left(s\\right)h\\left(s\\right)ds\n\\]\nHere, \\(g\\) and \\(h\\) are some functions belonging to a functional space \\(V\\). It should be noted that the linear functional takes a function as argument and returns a real number. In this way, the set of \\(h\\) functions (a subset of \\(V\\)) forms the domain of the functional \\(\\mathfrak{F}\\), and the range of this functional is located on real number line. In other words:\n\\[\n\\mathfrak{F}: V \\rightarrow R\n\\]\nThe domain of \\(\\mathfrak{F}\\) will be denoted by \\(\\mathfrak{D}\\). Usually, the domain of the functional consist of functions which are “very smooth” and which decay rapidly at the infinity. Also, note that all these function in the domain of the functional are defined over \\(-\\infty &lt; x &lt; \\infty\\).\nIn the above definition function \\(g(x)\\), is called the kernel of the functional if this function remains fixed. Also note that for different \\(g\\) we will get different functionals. The collection of these linear functionals is called the dual space of \\(V\\) and denoted by \\(V^*\\).\nNow take the Heaviside step function as the kernel \\(g(x-\\xi)\\), which is defined as:\n\\[\nH_{\\xi}(x):=g(x-\\xi)=\\begin{cases}\n1 & x-\\xi&gt;0\\\\\n0 & x-\\xi\\le0\n\\end{cases}\n\\]\nThe, the functional \\(\\mathfrak{F}\\) takes the following form.\n\\[\n\\mathfrak{F}: V \\rightarrow R \\Rightarrow \\int_{-\\infty}^{\\infty}g(s-\\xi)h(s)ds=\\int_{\\xi}^{\\infty}h(s)ds\n\\]\nNow consider delta function \\(\\delta(x-\\xi)\\) as the kernel, then we can obtain following functional.\n\\[\nh(x)=\\int_{-\\infty}^{\\infty}\\delta\\left(s-x\\right)h(s)ds\n\\]\nIn this way the kernel \\(\\delta(x-\\xi)\\), can be understood as a generalized function, which is defined by its action on a given function \\(h(x)\\), and we never talk about the values of a generalized function.",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html#weak-derivatives",
+    "href": "gf_greens-function-introduction.html#weak-derivatives",
+    "title": "Greens Function",
+    "section": "Weak derivatives",
+    "text": "Weak derivatives\nIn the framework of generalized function theory, one often work with the so called weak-derivatives. This is because there may be situations where the derivatives of a generalized function is not defined in the classical sense.\nThe weak-derivative of a generalized function is defined as follows.\n\\[\n\\int_{-\\infty}^{\\infty}\\frac{dg(s)}{ds}h(s)ds=\\left[g(s)h(s)\\right]_{-\\infty}^{\\infty}-\\int_{-\\infty}^{\\infty}g(s)\\frac{dh}{ds}ds\n\\]\nNow, if we select \\(h(x)\\) such that they vanish outside a finite interval (i.e., h has compact support) then the above equation becomes\n\\[\n\\int_{-\\infty}^{\\infty}\\frac{dg(s)}{ds}h(s)ds=-\\int_{-\\infty}^{\\infty}g(s)\\frac{dh}{ds}ds\n\\]\nIn the aforesaid equation, let \\(g(s)=\\delta(s-x)\\), then:\n\\[\n\\begin{aligned}\\int_{-\\infty}^{\\infty}\\frac{d\\delta(s-x)}{ds}h(s)ds & =\\left[\\delta(s-x)h(s)\\right]_{-\\infty}^{\\infty}-\\int_{-\\infty}^{\\infty}\\delta(s-x)\\frac{dh}{ds}ds\\\\\n& =-\\frac{dh(x)}{dx}\n\\end{aligned}\n\\]\nLet \\(g(s)=H(s-x)\\), that is, Heaviside step function, then\n\\[\n\\begin{aligned}\\int_{-\\infty}^{\\infty}\\frac{dH(s-x)}{ds}h(s)ds & =-\\int_{-\\infty}^{\\infty}H\\left(s-x\\right)\\frac{dh}{ds}ds\\\\\n& =-\\int_{x}^{\\infty}\\frac{dh}{ds}ds\\\\\n& =h(x)\n\\end{aligned}\n\\]\nThis suggest that\n\\[\n\\frac{dH(s-x)}{ds}=\\delta(s-x)\n\\]\nWe can define the \\(k\\)th weak derivative as:\n\\[\n\\int_{-\\infty}^{\\infty}\\frac{d^{k}g(s)}{ds^{k}}h(s)ds=(-1)^{k}\\int_{-\\infty}^{\\infty}g(s)\\frac{d^{k}h}{ds^{}k}ds\n\\]\nwhere, \\(h=C_{0}^{\\infty}\\), i.e., infinitely differentiable with compact support.",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html#test-functions",
+    "href": "gf_greens-function-introduction.html#test-functions",
+    "title": "Greens Function",
+    "section": "Test functions",
+    "text": "Test functions\nWe will denote by \\(\\mathcal{D}\\) the class of those functions in \\(C_{0}^{\\infty}(R)\\) which have compact support over the intervals of the form \\(\\left [ -a, a\\right ]\\) and which approach the Dirac \\(\\delta-function\\) as \\(a \\rightarrow 0\\). The members of the class \\(\\mathcal{D}\\) are called the test functions.\n\nSome examples of test functions are given below.",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "gf_greens-function-introduction.html#delta-function-in-curvilinear-coordinates",
+    "href": "gf_greens-function-introduction.html#delta-function-in-curvilinear-coordinates",
+    "title": "Greens Function",
+    "section": "Delta function in Curvilinear coordinates",
+    "text": "Delta function in Curvilinear coordinates\n\nAdd definition of Delta function",
+    "crumbs": [
+      "Greens functions",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Greens Function</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "7  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
