@@ -51,6 +51,9 @@ bibliography: references.bib
 comments:
   hypothesis: true
 
+execute:
+  freeze: auto
+
 format:
   html:
     theme:
