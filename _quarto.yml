@@ -9,6 +9,7 @@ book:
   reader-mode: true
   search: true
   repo-url: https://github.com/poromechanics/engineering-math/
+  site-url: https://poromechanics.github.io/engineering-math
   repo-actions: [edit, issue]
   downloads: [pdf,epub]
   sharing: [twitter, linkedin]
@@ -16,7 +17,6 @@ book:
   cover-image: ./figures/cover.svg
   cover-image-alt: Engineering mathematics
   twitter-card: true
-  site-url: https://vikas.easifem.com
   page-navigation: true
   page-footer: 
     left: "Copyright 2025, Vikas Sharma" 
